@@ -1,0 +1,1 @@
+import {combineReducers, configureStore} from '@reduxjs/toolkit'import productsSlice from './productsSlice'const rootReducers = combineReducers({    products: productsSlice,})const store = configureStore({    reducer: {        rootReducers,    }});export default store;

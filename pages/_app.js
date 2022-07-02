@@ -1,1 +1,1 @@
-import '../styles/global.css'import {Provider} from 'react-redux';import {store} from '../store/store.config';function MyApp({Component, pageProps}) {    return (        <Provider store={store}>            <Component {...pageProps} />        </Provider>    )}export default MyApp;
+import '../styles/global.css'import {wrapper} from '../store/store.config';function MyApp({Component, pageProps}) {    return (        <Component {...pageProps} />    )}export default wrapper.withRedux(MyApp);

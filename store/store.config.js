@@ -1,1 +1,1 @@
-import { configureStore } from '@reduxjs/toolkit'import rootReducers from './reducers'export const store = configureStore({    reducer: rootReducers})
+import { configureStore } from '@reduxjs/toolkit'import { createWrapper } from 'next-redux-wrapper'import rootReducers from './reducers'// export const store = configureStore({//// })export const makeStore = () =>    configureStore({        reducer: rootReducers    });export const wrapper = createWrapper(makeStore, { debug: true });

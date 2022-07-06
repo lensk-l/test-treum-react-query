@@ -1,0 +1,1 @@
+export const dataRu = {    title: 'Интернет магазин “В копеечку”',    description: 'Подбирайте и оформляйте товары по выгодным ценам.',    buttonBy: 'Купить',    buttonCheck: 'Подобрать',    category: 'Категория',    countText: 'Вам подобрано',    countTitle: ['продукт', 'продукта', 'продуктов'],}

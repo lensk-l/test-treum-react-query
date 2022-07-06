@@ -1,0 +1,1 @@
+export const dataUa = {    title: 'Інтернет магазин “В копійку”',    description: 'Підбирайте та оформлюйте товари по вигіним цінам.',    buttonBy: 'Придбати',    buttonCheck: 'Підібрати',    category: 'Категорія',    countText: 'Вам підібрано',    countTitle: ['продукт', 'продукти', 'продуктів'],}

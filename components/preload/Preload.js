@@ -1,0 +1,1 @@
+import styled from "styled-components";const Preload = styled.div`  display: flex;  justify-content: center;  margin-top: 200px;    `const PreloadImg = styled.img`    margin: 0 auto;    `export default function () {    return (        <Preload>            <PreloadImg src='/preload.gif'/>        </Preload>    )}
